@@ -6,39 +6,25 @@ body {
     font-weight: 300;
     line-height: 24px;
     margin: 0px 0px 0px 0px;
+    opacity: 500;
+    position: relative;
 }
-
-.firstHeader {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    align-items: center;
-    background-color: transparent;
-    transition: ease-in;
-    padding: 12px 0 10px;
-    z-index: 9997;
-}
-
-.firstHeader a:hover{
-    background-color: pink;
-}
-
-.firstHeaderCenter {
-    margin: 0 auto;
-    width: 70px;
-    cursor: pointer;
-}
-
-.firstHeaderRight {
-    right: 0;
+    body::after {
+    content: '';
+    display: block;
+    background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/2BjlJKFYpC0ogkUNHANDFZ/d615d597f9d8d401e6d3838f0410e5d3/HPRM-final-banner-no-text.jpg?fm=jpg&q=70&w=2560');
     position: absolute;
-    margin-right: 100px;
-}
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    }
 
 .loginHeader {
     border: unset;
-    background-color: unset;
+    /* background-color: unset; */
     cursor: pointer;
     font-family: Sofia Pro, serif;
     font-size: 12px;
@@ -48,14 +34,26 @@ body {
     line-height: normal;
     letter-spacing: normal;
     background-color: #6b63b5;
-    color: #f9f4f2;
+    color: white;
     border-radius: 3px;
     padding: 8px 20px 5px;
-    right: 0;
-    position: absolute;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
+.topNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNavBar:hover{
+    background-color: #282434;
+}
+
+.logo {
+    margin-left: 100px;
+}
 
 .navBar {
     border-top: 1px solid hsla(0,0%, 100%, .15);
@@ -69,13 +67,16 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
+}
+
+.navBar:hover {
+    background-color: #18141c;
 }
 
 .navBar a:hover {
-    border-bottom: 1px solid #6b63b5;
-    background: #10141b;
+    border-bottom: 2px solid #6b63b5;
 }
-
 
 .newsAndFeatures {
     border-bottom: 1px solid transparent;
@@ -289,26 +290,6 @@ body {
     position: relative;
 }
 
-/* .harryPotter1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    box-sizing: border-box;
-    padding: 0;
-    border: none;
-    margin: auto;
-    display: block;
-    width: 0;
-    height: 0;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    max-height: 100%;
-} */
-
-
 h1 {
     font-family: serif;
     font-size: 53px;
@@ -321,7 +302,7 @@ h1 {
     color: #f9f4f2;
 }
 
-button {
+/* button {
     appearance: auto;
     text-rendering: auto;
     color: internal light dark(black, white);
@@ -333,7 +314,7 @@ button {
     cursor: default;
     margin: 0em;
     font: 400 13.3333px Arial;
-}
+} */
 
 .intro {
     display: flex;
@@ -372,4 +353,105 @@ button {
     padding: 18px 31px;
     min-width: 250px;
     transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.mainContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.picturesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imageHP {
+    padding: 20px;
+    height: 175px;
+} 
+
+.pictureOneContainer {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.pictureOneWrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.pictureOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureOneSub {
+    text-align: center;
+    bottom: -200px;
+}
+
+.imageOne {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.imageOneText {
+    position: absolute;
+    font-size: 22px;
+    line-height: 1.27;
+    margin-left: 15%;
+    margin-top: 15px;
+    object-fit: contain;
+    font-family: serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.featureOne {
+    position:relative;
+    font-size: 14px;
+    line-height: 1.43;
+    margin-left: 15%;
+    margin-top: 15%;
+    object-fit: contain;
+    font-family: serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.pictureTwoContainer {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.pictureTwoWrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.pictureTwo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
 }
