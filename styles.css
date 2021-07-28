@@ -1,0 +1,375 @@
+body {
+    background-color: #10141b;
+    color: #fff;
+    font-family: Sofia Pro, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+.firstHeader {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    transition: ease-in;
+    padding: 12px 0 10px;
+    z-index: 9997;
+}
+
+.firstHeader a:hover{
+    background-color: pink;
+}
+
+.firstHeaderCenter {
+    margin: 0 auto;
+    width: 70px;
+    cursor: pointer;
+}
+
+.firstHeaderRight {
+    right: 0;
+    position: absolute;
+    margin-right: 100px;
+}
+
+.loginHeader {
+    border: unset;
+    background-color: unset;
+    cursor: pointer;
+    font-family: Sofia Pro, serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #6b63b5;
+    color: #f9f4f2;
+    border-radius: 3px;
+    padding: 8px 20px 5px;
+    right: 0;
+    position: absolute;
+    margin-right: 100px;
+}
+
+
+.navBar {
+    border-top: 1px solid hsla(0,0%, 100%, .15);
+    position: relative;
+    list-style: none;
+    padding: 7px 0 2px;
+    margin: 0;
+    background-color: transparent;
+    transition: background-color .3s ease-in;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navBar a:hover {
+    border-bottom: 1px solid #6b63b5;
+    background: #10141b;
+}
+
+
+.newsAndFeatures {
+    border-bottom: 1px solid transparent;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.newsAndFeaturesArrow {
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
+}
+
+.quiz {
+    border-bottom: 1px solid transparent;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.archive {
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.discover {
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.discoverArrow {
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
+}
+
+.starting {
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.startingArrow {
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
+}
+
+.sorting {
+    border-bottom: 1px solid transparent;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.fan {
+    border-bottom: 1px solid transparent;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.pins {
+    border-bottom: 1px solid transparent;
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.pinsArrow {
+    transform: rotate(90deg);
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
+}
+
+.shop {
+    opacity: 1;
+    transition: opacity .2s ease-in;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    display: block;
+    font-family: Sofia Pro, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+/* .harryPotter1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+} */
+
+
+h1 {
+    font-family: serif;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    max-width: 760px;
+    padding: 0 30px;
+    margin: 0 0 10px;
+    color: #f9f4f2;
+}
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    color: internal light dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.celebrate {
+    font-family: Sofia Pro, serif;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #f9f4f2;
+    text-align: center;
+    max-width: 520px;
+    padding: 0 30px;
+}
+
+#exploreWeekFive {
+    color: #fff;
+    background-color: #6b63b5;
+    font-family: Sofia Pro, serif;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 18px 31px;
+    min-width: 250px;
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
