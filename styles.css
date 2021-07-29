@@ -53,12 +53,17 @@ body {
 }
 
 .logo {
-    margin-left: 100px;
+    margin-left: 175px;
+}
+
+.nav {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
 
 .navBar {
     border-top: 1px solid hsla(0,0%, 100%, .15);
-    position: relative;
     list-style: none;
     padding: 7px 0 2px;
     margin: 0;
@@ -105,6 +110,8 @@ body {
     margin-left: 10px;
     position: relative;
     top: 2px;
+    padding-right: 10px;
+    padding-top: 27px;
     transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
 }
 
@@ -172,6 +179,8 @@ body {
     margin-left: 10px;
     position: relative;
     top: 2px;
+    padding-right: 10px;
+    padding-top: 27px;
     transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
 }
 
@@ -200,6 +209,8 @@ body {
     margin-left: 10px;
     position: relative;
     top: 2px;
+    padding-right: 10px;
+    padding-top: 27px;
     transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
 }
 
@@ -269,6 +280,8 @@ body {
     margin-left: 10px;
     position: relative;
     top: 2px;
+    padding-right: 10px;
+    padding-top: 27px;
     transition: transform .2s ease-in, -webkit-transform .2s ease-in, -moz-transform .2s ease-in;
 }
 
@@ -307,7 +320,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    margin-top: 100px;
 }
 
 .celebrate {
@@ -351,12 +364,13 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    position: relative;
 }
 
 .imageHP {
     padding: 20px;
-    height: 175px;
+    height: 200px;
+    width: 350px;
 } 
 
 .pictureOne {
@@ -366,7 +380,22 @@ h1 {
 
 .pictureOneSub {
     text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 700;
     bottom: -200px;
+    position: relative;
+    bottom: 105px;
+    right: 90px;
+}
+
+.pictureOneSubText {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    bottom: 130px;
 }
 
 .pictureTwo {
@@ -376,7 +405,23 @@ h1 {
 
 .pictureTwoSub {
     text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    font-weight:700;
     bottom: -200px;
+    position: relative;
+    bottom: 105px;
+    right: 90px;
+}
+
+.pictureTwoSubText {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    bottom: 130px;
+    left: 15px;
 }
 
 .pictureThree {
@@ -386,33 +431,21 @@ h1 {
 
 .pictureThreeSub {
     text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 700;
     bottom: -200px;
+    position: relative;
+    bottom: 105px;
+    right: 130px;
 }
 
-/* .imageOneText {
-    position: absolute;
-    font-size: 22px;
-    line-height: 1.27;
-    margin-left: 15%;
-    margin-top: 15px;
-    object-fit: contain;
+.pictureThreeSubText {
+    text-align: center;
     font-family: serif;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    bottom: 130px;
+    left: 50px;
 }
-
-.featureOne {
-    position:relative;
-    font-size: 14px;
-    line-height: 1.43;
-    margin-left: 15%;
-    margin-top: 15%;
-    object-fit: contain;
-    font-family: serif;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-} */
