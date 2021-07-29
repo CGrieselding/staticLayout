@@ -24,7 +24,6 @@ body {
 
 .loginHeader {
     border: unset;
-    /* background-color: unset; */
     cursor: pointer;
     font-family: Sofia Pro, serif;
     font-size: 12px;
@@ -37,7 +36,7 @@ body {
     color: white;
     border-radius: 3px;
     padding: 8px 20px 5px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .topNavBar {
@@ -45,6 +44,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .topNavBar:hover{
@@ -302,20 +303,6 @@ h1 {
     color: #f9f4f2;
 }
 
-/* button {
-    appearance: auto;
-    text-rendering: auto;
-    color: internal light dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-indent: 0px;
-    text-shadow: none;
-    align-items: flex-start;
-    cursor: default;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-} */
-
 .intro {
     display: flex;
     align-items: center;
@@ -372,21 +359,6 @@ h1 {
     height: 175px;
 } 
 
-.pictureOneContainer {
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-}
-
-.pictureOneWrapper {
-    width: 100%;
-    position: absolute;
-    top: 0;
-}
-
 .pictureOne {
     display: flex;
     flex-direction: column;
@@ -397,15 +369,27 @@ h1 {
     bottom: -200px;
 }
 
-.imageOne {
-    width: 50%;
-    height: 50%;
+.pictureTwo {
     display: flex;
-    top: 0;
-    left: 0;
+    flex-direction: column;
 }
 
-.imageOneText {
+.pictureTwoSub {
+    text-align: center;
+    bottom: -200px;
+}
+
+.pictureThree {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureThreeSub {
+    text-align: center;
+    bottom: -200px;
+}
+
+/* .imageOneText {
     position: absolute;
     font-size: 22px;
     line-height: 1.27;
@@ -431,27 +415,4 @@ h1 {
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
-}
-
-.pictureTwoContainer {
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-}
-
-.pictureTwoWrapper {
-    width: 100%;
-    position: absolute;
-    top: 0;
-}
-
-.pictureTwo {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    top: 0;
-    left: 0;
-}
+} */
